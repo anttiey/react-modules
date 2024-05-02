@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-QvZ8i92b.js";const s="_title_1ky0d_1",i={title:s},o=({children:e})=>t.jsx("h1",{className:i.title,children:e});o.__docgenInfo={description:"",methods:[],displayName:"Title",props:{children:{required:!0,tsType:{name:"ReactReactNode",raw:"React.ReactNode"},description:""}}};export{o as T};
