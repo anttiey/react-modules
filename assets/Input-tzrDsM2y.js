@@ -1,0 +1,1 @@
+import{j as n}from"./jsx-runtime-QvZ8i92b.js";const o="_modalInput_1f2ll_1",s={modalInput:o},p=({...t})=>n.jsx("input",{...t,className:s.modalInput});p.__docgenInfo={description:"",methods:[],displayName:"Input"};export{p as I};
