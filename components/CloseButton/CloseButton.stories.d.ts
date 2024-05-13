@@ -3,7 +3,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ close, ...rest }: import('./CloseButton').CloseButtonProps) => import("react/jsx-runtime").JSX.Element;
+    component: ({ close }: import('./CloseButton').CloseButtonProps) => import("react/jsx-runtime").JSX.Element;
     tags: string[];
     parameters: {
         controls: {

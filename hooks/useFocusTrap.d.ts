@@ -1,4 +1,2 @@
-import { RefObject } from '../../../node_modules/react';
-
-declare const useFocusTrap: (isOpen: boolean, modalRef: RefObject<HTMLElement>) => void;
+declare const useFocusTrap: (isOpen: boolean) => import('../../../node_modules/react').RefObject<HTMLDivElement>;
 export default useFocusTrap;

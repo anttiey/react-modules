@@ -3,13 +3,13 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: (({ isOpen, close, children, position, size, backdropType, shadow, animation, }: import('../../types/common').StrictPropsWithChildren<import('../../types/common').ModalProps>) => import('../../../../node_modules/react').ReactPortal | null) & {
+    component: (({ isOpen, close, children, position, size, backdropType, shadow, animation, }: import('../../types/common').StrictPropsWithChildren<import('../types/Modal.type').ModalProps>) => import('../../../../node_modules/react').ReactPortal | null) & {
         Title: ({ children }: {
             children: import('../../../../node_modules/react').ReactNode;
         }) => import("react/jsx-runtime").JSX.Element;
         Input: ({ ...rest }: import('../../../../node_modules/react').InputHTMLAttributes<HTMLInputElement>) => import("react/jsx-runtime").JSX.Element;
         Button: ({ text, mode, size, ...rest }: import('../../components/Button/Button').ModalButtonProps) => import("react/jsx-runtime").JSX.Element;
-        CloseButton: ({ close, ...rest }: import('../../components/CloseButton/CloseButton').CloseButtonProps) => import("react/jsx-runtime").JSX.Element;
+        CloseButton: ({ close }: import('../../components/CloseButton/CloseButton').CloseButtonProps) => import("react/jsx-runtime").JSX.Element;
         Header: ({ children, ...rest }: import('../../types/common').StrictPropsWithChildren<import('../../../../node_modules/react').HTMLAttributes<HTMLElement>>) => import("react/jsx-runtime").JSX.Element;
         Body: ({ children, ...rest }: import('../../types/common').StrictPropsWithChildren<import('../../../../node_modules/react').HTMLAttributes<HTMLElement>>) => import("react/jsx-runtime").JSX.Element;
         Footer: ({ children, align, direction, ...rest }: import('../../types/common').StrictPropsWithChildren<import('../../components/ModalLayout/ModalLayout').ModalFooterProps>) => import("react/jsx-runtime").JSX.Element;
@@ -22,9 +22,9 @@ declare const meta: {
     decorators: ((Story: import('@storybook/types').PartialStoryFn<import('@storybook/react').ReactRenderer, {
         isOpen: boolean;
         close: () => void;
-        position?: import('../../types/common').Position | undefined;
-        backdropType?: import('../../types/common').BackDropType | undefined;
-        size?: import('../../types/common').Size | undefined;
+        position?: import('../types/Modal.type').Position | undefined;
+        backdropType?: import('../types/Modal.type').BackDropType | undefined;
+        size?: import('../types/Modal.type').Size | undefined;
         shadow?: boolean | undefined;
         animation?: boolean | undefined;
         children: import('../../../../node_modules/react').ReactNode;

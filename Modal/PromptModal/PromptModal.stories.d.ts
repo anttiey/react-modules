@@ -3,7 +3,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ headerText, inputValue, onInputChange, onConfirm, ...modalProps }: import('./PromptModal').PromptModalProps) => import("react/jsx-runtime").JSX.Element;
+    component: ({ headerText, primaryButtonText, secondaryButtonText, inputValue, onInputChange, onConfirm, ...modalProps }: import('./PromptModal').PromptModalProps) => import("react/jsx-runtime").JSX.Element;
     parameters: {
         controls: {
             exclude: string[];

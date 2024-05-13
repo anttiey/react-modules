@@ -3,7 +3,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ headerText, bodyText, ...modalProps }: import('./AlertModal').AlertModalProps) => import("react/jsx-runtime").JSX.Element;
+    component: ({ headerText, bodyText, buttonText, ...modalProps }: import('./AlertModal').AlertModalProps) => import("react/jsx-runtime").JSX.Element;
     parameters: {
         controls: {
             exclude: string[];

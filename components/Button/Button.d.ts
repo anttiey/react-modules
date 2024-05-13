@@ -1,4 +1,4 @@
-import { Size } from '../../types/common';
+import { Size } from '../../Modal/types/Modal.type';
 import { ButtonHTMLAttributes } from '../../../../node_modules/react';
 
 type ButtonMode = 'primary' | 'secondary';
